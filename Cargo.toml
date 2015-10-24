@@ -1,0 +1,23 @@
+[package]
+name = "iron-sql-hello"
+version = "0.1.0"
+authors = ["Flavien Raynaud <flavien.raynaud@gmail.com>"]
+
+[dependencies]
+env_logger = "0.3.1"
+iron = "0.2.3"
+log = "0.3.2"
+persistent = "0.0.7"
+plugin = "0.2.6"
+router = "0.0.15"
+rusqlite = "0.3.1"
+rustc-serialize = "0.3.16"
+r2d2 = "0.6.1"
+r2d2_sqlite = "0.0.1"
+
+[dependencies.time]
+version = "0.1.33"
+features = ["rustc-serialize"]
+
+[dependencies.bodyparser]
+git = "https://github.com/iron/body-parser.git"

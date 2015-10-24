@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS hellos;
+
+CREATE TABLE hellos (
+  id INTEGER PRIMARY KEY,
+  content TEXT NOT NULL,
+  created_at TEXT NOT NULL
+);
